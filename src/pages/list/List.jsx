@@ -26,7 +26,7 @@ const List = () => {
           }
           { users === 'users' &&
             <Button asChild
-              className="bg-green-500 hover:bg-green-600"
+              className="bg-blue-500 hover:bg-blue-600 text-blue-50"
             >
               <Link to={`/${users}/new`}>
                 Add User

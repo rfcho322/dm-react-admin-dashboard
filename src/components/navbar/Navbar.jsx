@@ -10,11 +10,11 @@ const Navbar = () => {
 
   return (
     // NAVBAR
-    <div className="flex items-center text-sm text-foreground h-14 border-b-2 border-b-gray-300/50">
+    <div className="flex items-center bg-card text-sm text-foreground h-14 border-b-2 border-b-separator">
       {/* WRAPPER */}
       <div className="flex justify-between items-center w-full p-5">
         {/* SEARCH */}
-        <div className="flex gap-1 items-center rounded-md py-2 px-2 border-[0.5px] border-gray-300/50">
+        <div className="flex gap-1 items-center rounded-md py-2 px-2 border-[0.5px] border-separator">
           <input type="text" placeholder="Search..."
              className="outline-none bg-transparent placeholder:text-sm" 
           />

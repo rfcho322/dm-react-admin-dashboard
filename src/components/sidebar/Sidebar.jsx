@@ -10,10 +10,10 @@ const Sidebar = () => {
     const { dispatch } = useContext(DarkModeContext);
 
   return (
-    <div className="flex-1 min-h-screen bg-background border-r border-r-gray-300/50 pb-12">
+    <div className="flex-1 min-h-screen bg-card border-r border-r-separator pb-12">
         {/* LOGO */}
         <Link to="/">
-            <div className="flex justify-center items-center h-14 border-b-2 border-b-gray-300/50">
+            <div className="flex justify-center items-center h-14 border-b-2 border-b-separator">
                 <span className="text-xl font-bold text-purple-500">Desert Moon</span>
             </div>    
         </Link>

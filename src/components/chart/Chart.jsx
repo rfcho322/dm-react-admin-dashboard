@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 
 const ChartComponent = ({ title, subtitle, height, width, strokeWidth, type, yaxis, categories, seriesData }) => {
 
+
     const markerSize = 10;
     const markerStrokeWidth = 7;
     const markerStrokeColors = '#a855f7';
@@ -19,7 +20,8 @@ const ChartComponent = ({ title, subtitle, height, width, strokeWidth, type, yax
 
     const [options] = useState({
         grid: {
-            show: false,
+            show: true,
+            borderColor: 'hsla(0, 0%, 50%, 0.3)',
         },
         fill: {
             colors: ['#a855f7'], // Area color below the line
